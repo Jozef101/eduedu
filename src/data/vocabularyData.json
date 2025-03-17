@@ -1,0 +1,213 @@
+{
+    "units": [
+      {
+        "id": 1,
+        "words": [
+          { "sk": "mačka",   "en": "cat" },
+          { "sk": "pes",     "en": "dog" },
+          { "sk": "auto",    "en": "car" },
+          { "sk": "dom",     "en": "house" },
+          { "sk": "kniha",   "en": "book" },
+          { "sk": "strom",   "en": "tree" },
+          { "sk": "stôl",    "en": "table" },
+          { "sk": "lampa",   "en": "lamp" },
+          { "sk": "topánka", "en": "shoe" },
+          { "sk": "ruka",    "en": "hand" }
+        ]
+      },
+      {
+        "id": 2,
+        "words": [
+          { "sk": "hlava",   "en": "head" },
+          { "sk": "noha",    "en": "leg" },
+          { "sk": "zviera",  "en": "animal" },
+          { "sk": "rieka",   "en": "river" },
+          { "sk": "město",   "en": "city" },
+          { "sk": "kvet",    "en": "flower" },
+          { "sk": "vták",    "en": "bird" },
+          { "sk": "hračka",  "en": "toy" },
+          { "sk": "auto",    "en": "car" },
+          { "sk": "vlak",    "en": "train" }
+        ]
+      },
+      {
+        "id": 3,
+        "words": [
+          { "sk": "zmrzlina", "en": "icecream" },
+          { "sk": "voda",     "en": "water" },
+          { "sk": "jedlo",    "en": "food" },
+          { "sk": "cukrík",   "en": "candy" },
+          { "sk": "kôň",      "en": "horse" },
+          { "sk": "ovocie",   "en": "fruit" },
+          { "sk": "chlieb",   "en": "bread" },
+          { "sk": "okno",     "en": "window" },
+          { "sk": "dvere",    "en": "door" },
+          { "sk": "hudba",    "en": "music" }
+        ]
+      },
+      {
+        "id": 4,
+        "words": [
+          { "sk": "vlak",     "en": "train" },
+          { "sk": "lietadlo", "en": "plane" },
+          { "sk": "loď",      "en": "ship" },
+          { "sk": "jedlo",    "en": "meal" },
+          { "sk": "strom",    "en": "tree" },
+          { "sk": "dieťa",    "en": "child" },
+          { "sk": "jabĺčko",  "en": "apple" },
+          { "sk": "hra",      "en": "game" },
+          { "sk": "čaj",      "en": "tea" },
+          { "sk": "káva",     "en": "coffee" }
+        ]
+      },
+      {
+        "id": 5,
+        "words": [
+          { "sk": "školská taška", "en": "bag" },
+          { "sk": "ceruzka",       "en": "pencil" },
+          { "sk": "pero",          "en": "pen" },
+          { "sk": "krieda",        "en": "chalk" },
+          { "sk": "zošit",         "en": "notebook" },
+          { "sk": "okuliare",      "en": "glasses" },
+          { "sk": "pieseň",        "en": "song" },
+          { "sk": "hračka",        "en": "toy" },
+          { "sk": "koberec",       "en": "carpet" },
+          { "sk": "posta",         "en": "post" }
+        ]
+      },
+      {
+        "id": 6,
+        "words": [
+          { "sk": "zem",    "en": "earth" },
+          { "sk": "slnko",  "en": "sun" },
+          { "sk": "mesiac", "en": "moon" },
+          { "sk": "hviezda","en": "star" },
+          { "sk": "oheň",   "en": "fire" },
+          { "sk": "voda",   "en": "water" },
+          { "sk": "vzduch", "en": "air" },
+          { "sk": "ľad",    "en": "ice" },
+          { "sk": "čas",    "en": "time" },
+          { "sk": "hora",   "en": "mountain" }
+        ]
+      },
+      {
+        "id": 7,
+        "words": [
+          { "sk": "jazyk",        "en": "language" },
+          { "sk": "učebnica",     "en": "textbook" },
+          { "sk": "učiteľ",       "en": "teacher" },
+          { "sk": "žiak",         "en": "pupil" },
+          { "sk": "hra",          "en": "game" },
+          { "sk": "stena",        "en": "wall" },
+          { "sk": "strop",        "en": "ceiling" },
+          { "sk": "podlaha",      "en": "floor" },
+          { "sk": "mapa",         "en": "map" },
+          { "sk": "hodinky",      "en": "watch" }
+        ]
+      },
+      {
+        "id": 8,
+        "words": [
+          { "sk": "v noci", "en": "at night" },
+          { "sk": "umyť si zuby", "en": "brush my teeth" },
+          { "sk": "obliecť sa", "en": "get dressed" },
+          { "sk": "vstať (z postele)", "en": "get up" },
+          { "sk": "ísť autobusom", "en": "go by bus" },
+          { "sk": "ísť domov", "en": "go home" },
+          { "sk": "ísť do postele", "en": "go to bed" },
+          { "sk": "ísť do školy", "en": "go to school" },
+          { "sk": "dobrú noc", "en": "goodnight" },
+          { "sk": "raňajkovať", "en": "have breakfast" },
+          { "sk": "večerať", "en": "have dinner" },
+          { "sk": "popoludní", "en": "in the afternoon" },
+          { "sk": "večer", "en": "in the evening" },
+          { "sk": "ráno", "en": "in the morning" },
+          { "sk": "lietadlo", "en": "plane" },
+          { "sk": "korčule", "en": "skates" },
+          { "sk": "obloha", "en": "sky" },
+          { "sk": "malý", "en": "small" },
+          { "sk": "úsmev", "en": "smile" },
+          { "sk": "had", "en": "snake" },
+          { "sk": "sneh", "en": "snow" },
+          { "sk": "takže, tak", "en": "so" },
+          { "sk": "schody (vo vnútri)", "en": "stairs" },
+          { "sk": "hviezda", "en": "star" },
+          { "sk": "čas na", "en": "time for" }
+        ]
+      },
+      {
+        "id": 9,
+        "words": [
+          { "sk": "letisko", "en": "airport" },
+          { "sk": "teraz, práve", "en": "at the moment" },
+          { "sk": "banka", "en": "bank" },
+          { "sk": "kôš, košík", "en": "basket" },
+          { "sk": "milý, chutný", "en": "cute" },
+          { "sk": "tmavý", "en": "dark" },
+          { "sk": "tvár", "en": "face" },
+          { "sk": "fantastický", "en": "fantastic" },
+          { "sk": "kŕmiť", "en": "feed" },
+          { "sk": "hasičská stanica", "en": "fire station" },
+          { "sk": "autoservis,  garáž", "en": "garage" },
+          { "sk": "brána", "en": "gate" },
+          { "sk": "nemocnica", "en": "hospital" },
+          { "sk": "zamestnanie", "en": "job" },
+          { "sk": "jazero", "en": "lake" },
+          { "sk": "všade okolo", "en": "out and about" },
+          { "sk": "miesto", "en": "place" },
+          { "sk": "lietadlo", "en": "plane" },
+          { "sk": "policajná stanica", "en": "police station" },
+          { "sk": "škola", "en": "school" },
+          { "sk": "obchod", "en": "shop" },
+          { "sk": "nákup", "en": "shopping" },
+          { "sk": "stanica", "en": "station" },
+          { "sk": "supermarket", "en": "supermarket" },
+          { "sk": "vec", "en": "thing" },
+          { "sk": "zelenina", "en": "vegetable" },
+          { "sk": "pracovať", "en": "work" },
+          { "sk": "zoologická záhrada", "en": "zoo" }
+        ]
+      },
+      {
+        "id": 10,
+        "words": [
+          { "sk": "všetci spolu",        "en": "all together" },
+          { "sk": "buď opatrný",     "en": "be careful" },
+          { "sk": "bicykel",       "en": "bike" },
+          { "sk": "chytiť",         "en": "catch" },
+          { "sk": "studený, chladný",          "en": "cold" },
+          { "sk": "púšťať šarkana",        "en": "fly a kite" },
+          { "sk": "uletieť",        "en": "fly away" },
+          { "sk": "zmoknúť",      "en": "get wet" },
+          { "sk": "ísť sa korčuľovať",         "en": "go ice skating" },
+          { "sk": "ísť von",      "en": "go outside" },
+          { "sk": "vysoko hore",        "en": "high up" },
+          { "sk": "horúci",     "en": "hot" },
+          { "sk": "nechať si",       "en": "keep" },
+          { "sk": "kľúč",         "en": "key" },
+          { "sk": "šarkan",          "en": "kite" },
+          { "sk": "rad",        "en": "line" },
+          { "sk": "robiť snehuliaka",        "en": "make a snowman" },
+          { "sk": "správy",      "en": "news" },
+          { "sk": "deväť",         "en": "nine" },
+          { "sk": "rýchlo, rýchly",      "en": "quick" }
+        ]
+      },
+      {
+        "id": 800,
+        "words": [
+          { "sk": "môj",       "en": "my" },
+          { "sk": "tvoj",        "en": "your" },
+          { "sk": "jeho",         "en": "his" },
+          { "sk": "jej",      "en": "her" },
+          { "sk": "naši",      "en": "our" },
+          { "sk": "vaši",      "en": "your" },
+          { "sk": "ich",       "en": "their" },
+          { "sk": "oni",      "en": "they" },
+          { "sk": "my",     "en": "we" },
+          { "sk": "vy",    "en": "you" }
+        ]
+      }
+    ]
+  }
+  

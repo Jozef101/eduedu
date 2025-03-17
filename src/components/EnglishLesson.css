@@ -1,0 +1,216 @@
+/* EnglishLesson.css */
+
+/* The main container (card) for the English lesson */
+.english-lesson-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Header row: Title + Unit selector */
+.lesson-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lesson-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0;
+    color: #333;
+}
+
+.unit-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.unit-selector select {
+    padding: 0.3rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Stats row (correct/wrong or final stats) */
+.lesson-stats {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* 
+     .final-stats is used in the summary screen 
+     to show correct/wrong/total together.
+  */
+.final-stats {
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+/* The stat-box with thick left border color 
+     and a 1px border on other sides 
+  */
+.stat-box {
+    background-color: #f9fafb;
+    border: 1px solid #ccc;
+    /* top/right/bottom in #ccc (1px) */
+    border-left-width: 6px;
+    /* thick left border */
+    border-left-style: solid;
+    border-left-color: #ccc;
+    /* default left border color if not overridden */
+    border-radius: 4px;
+    /* slight rounding */
+    padding: 0.5rem 1rem;
+    min-width: 60px;
+}
+
+.stat-box p {
+    margin: 0;
+    color: #555;
+    font-size: 0.85rem;
+}
+
+.stat-box h3 {
+    margin: 0.2rem 0 0;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+/* Correct => green left border */
+.correct-box {
+    border-left-color: #10b981;
+    /* Green */
+}
+
+/* Wrong => red left border */
+.wrong-box {
+    border-left-color: #ef4444;
+    /* Red */
+}
+
+/* For the final summary "Spolu" => blue left border */
+.total-box {
+    border-left-color: #3b82f6;
+    /* Blue */
+}
+
+/* Progress: which word # we're on, how many left */
+.lesson-progress {
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem 0;
+}
+
+.lesson-progress p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* The Slovak word prompt */
+.word-prompt p {
+    margin: 0.5em 0;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* The form with input & button */
+.lesson-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.lesson-form input {
+    width: 100%;
+    max-width: 200px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.lesson-form button {
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    color: #fff;
+    background-color: #f18e8e;
+    /* Soft pink-red */
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.lesson-form button:hover {
+    background-color: #e57878;
+    /* Slightly darker pink-red */
+}
+
+/* Feedback messages (correct or wrong) */
+.feedback {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.feedback.correct {
+    color: #10b981;
+    /* green */
+}
+
+.feedback.wrong {
+    color: #ef4444;
+    /* red */
+}
+
+/* Summary screen specifics */
+.summary-text {
+    font-size: 1rem;
+    color: #444;
+}
+
+.incorrect-words ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.incorrect-words li {
+    margin: 0.25rem 0;
+    font-weight: 500;
+    color: #ef4444;
+}
+
+.all-correct {
+    color: #10b981;
+    font-weight: 500;
+}
+
+.retry-btn {
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    padding: 0.6rem 1.4rem;
+    color: #fff;
+    background-color: #3b82f6;
+    /* Blue button */
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.retry-btn:hover {
+    background-color: #2e6cd1;
+}
+
+/* Optionally remove focus outlines on button (not recommended for a11y) */
+button:focus,
+button:focus-visible {
+    outline: none;
+    box-shadow: none;
+}

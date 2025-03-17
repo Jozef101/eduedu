@@ -1,0 +1,72 @@
+.subject-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Always 2 columns */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 460px; /* Increased width */
+    width: calc(100% - 40px); /* Ensures space around */
+    margin: 20px auto; /* Keeps spacing consistent */
+    background-color: rgba(245, 245, 245, 0.7);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+  
+  .subject-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .subject-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .subject-icon {
+    font-size: 2rem;
+  }
+  
+  .subject-name {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Mobile: 1 column */
+  @media (max-width: 460px) {
+    .subject-container {
+        grid-template-columns: 1fr;
+        max-width: 90%; /* Keeps it from being too wide */
+    }
+}
+
+.subject-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .back-button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .back-button:hover {
+    background-color: #e63946;
+  }
+  
+
+  

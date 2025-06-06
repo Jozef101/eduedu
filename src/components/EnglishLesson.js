@@ -107,7 +107,7 @@ function EnglishLesson() {
       } else {
         setIsCorrect(false);
         setWrongCount((prev) => prev + 1);
-        setWrongAnswers((prev) => [...prev, currentWord.en]);
+        setWrongAnswers((prev) => [...prev, (currentWord.en + " - " + currentWord.sk)]);
       }
     } else {
       // Move to next word or final summary
@@ -182,7 +182,7 @@ function EnglishLesson() {
             <p>Nesprávne zodpovedané anglické slová:</p>
             <ul>
               {wrongAnswers.map((word, idx) => (
-                <li key={idx}>{word.toUpperCase()}</li>
+                <li key={idx}>{word}</li>
               ))}
             </ul>
           </div>
@@ -282,7 +282,7 @@ function EnglishLesson() {
         <p className="feedback wrong">
           ❌ Nesprávne!
           <br />
-          Správna odpoveď je {currentWord.en.toUpperCase()}
+          Správna odpoveď je {currentWord.en}
         </p>
       )}
     </div>

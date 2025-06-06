@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-{}
-=======
+
 {
   "name": "edu-edu",
   "version": "0.1.0",
@@ -40,4 +38,3 @@
     ]
   }
 }
->>>>>>> 319276b (Initialize project using Create React App)

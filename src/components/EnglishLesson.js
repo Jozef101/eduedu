@@ -107,7 +107,7 @@ function EnglishLesson() {
       } else {
         setIsCorrect(false);
         setWrongCount((prev) => prev + 1);
-        setWrongAnswers((prev) => [...prev, (currentWord.en + " - " + currentWord.sk)]);
+        setWrongAnswers((prev) => [...prev, (currentWord.sk + " - " + currentWord.en)]);
       }
     } else {
       // Move to next word or final summary

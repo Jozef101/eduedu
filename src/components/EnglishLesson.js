@@ -222,10 +222,9 @@ function EnglishLesson() {
 
   return (
     <div className="card english-lesson-card">
-      <div className="lesson-header">
-        <h2 className="lesson-title">Anglické slovíčka</h2>
+      <h2 className="lesson-title">Anglické slovíčka a gramatika</h2>
         <div className="unit-selector">
-          <label htmlFor="unitSelect">Unit:</label>
+          <label htmlFor="unitSelect">Lesson:</label>
           <select
             id="unitSelect"
             onChange={handleUnitChange}
@@ -233,12 +232,11 @@ function EnglishLesson() {
           >
             {vocabularyData.units.map((unit) => (
               <option key={unit.id} value={unit.id}>
-                Unit {unit.id}
+                {unit.name}
               </option>
             ))}
           </select>
         </div>
-      </div>
 
       <div className="lesson-stats">
         <div className="stat-box correct-box">

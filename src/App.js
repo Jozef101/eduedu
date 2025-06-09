@@ -3,7 +3,6 @@ import './App.css'; // If you still have some global background or resets
 import MathGame from './components/MathGame';
 import EnglishLesson from './components/EnglishLesson';
 import Toolbar from './components/Toolbar';
-import SubjectComponent from './components/SubjectComponent';
 
 function App() {
   const [showMathGame, setShowMathGame] = useState(false);

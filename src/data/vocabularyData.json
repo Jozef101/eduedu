@@ -2,6 +2,7 @@
     "units": [
       {
         "id": 1,
+        "name": "Unit 1",
         "words": [
           { "sk": "mačka",   "en": "cat" },
           { "sk": "pes",     "en": "dog" },
@@ -17,6 +18,7 @@
       },
       {
         "id": 2,
+        "name": "Unit 2",
         "words": [
           { "sk": "hlava",   "en": "head" },
           { "sk": "noha",    "en": "leg" },
@@ -32,6 +34,7 @@
       },
       {
         "id": 3,
+        "name": "Unit 3",
         "words": [
           { "sk": "zmrzlina", "en": "icecream" },
           { "sk": "voda",     "en": "water" },
@@ -47,6 +50,7 @@
       },
       {
         "id": 4,
+        "name": "Unit 4",
         "words": [
           { "sk": "vlak",     "en": "train" },
           { "sk": "lietadlo", "en": "plane" },
@@ -62,6 +66,7 @@
       },
       {
         "id": 5,
+        "name": "Unit 5",
         "words": [
           { "sk": "školská taška", "en": "bag" },
           { "sk": "ceruzka",       "en": "pencil" },
@@ -77,6 +82,7 @@
       },
       {
         "id": 6,
+        "name": "Unit 6",
         "words": [
           { "sk": "zem",    "en": "earth" },
           { "sk": "slnko",  "en": "sun" },
@@ -92,6 +98,7 @@
       },
       {
         "id": 7,
+        "name": "Unit 7",
         "words": [
           { "sk": "jazyk",        "en": "language" },
           { "sk": "učebnica",     "en": "textbook" },
@@ -107,6 +114,7 @@
       },
       {
         "id": 8,
+        "name": "Unit 8",
         "words": [
           { "sk": "v noci", "en": "at night" },
           { "sk": "umyť si zuby", "en": "brush my teeth" },
@@ -137,6 +145,7 @@
       },
       {
         "id": 9,
+        "name": "Unit 9",
         "words": [
           { "sk": "letisko", "en": "airport" },
           { "sk": "teraz, práve", "en": "at the moment" },
@@ -170,6 +179,7 @@
       },
       {
         "id": 10,
+        "name": "Unit 10",
         "words": [
           { "sk": "všetci spolu",        "en": "all together" },
           { "sk": "buď opatrný",     "en": "be careful" },
@@ -207,6 +217,7 @@
         ]
       },{
         "id": 11,
+        "name": "Unit 11",
         "words": [
           { "sk": "kosť",        "en": "bone" },
           { "sk": "čižmy",     "en": "boots" },
@@ -232,6 +243,7 @@
       },
       {
         "id": 12,
+        "name": "Unit 12",
         "words": [
           { "sk": "hudobná skupina",    "en": "band" },
           { "sk": "nevesta",  "en": "bride" },
@@ -270,6 +282,7 @@
       },
       {
         "id": 13,
+        "name": "Unit 13",
         "words": [
           { "sk": "hrýzť",    "en": "bite" },
           { "sk": "priniesť",  "en": "bring" },
@@ -305,6 +318,7 @@
         ]
       },{
         "id": 14,
+        "name": "Unit 14",
         "words": [
           { "sk": "hrať divadlo, rolu",       "en": "act" },
           { "sk": "skvelý",        "en": "brilliant" },
@@ -338,6 +352,7 @@
         ]
       },{
         "id": 15,
+        "name": "Unit 15",
         "words": [
           { "sk": "žiaden",       "en": "any" },
           { "sk": "banka",        "en": "bank" },
@@ -363,6 +378,7 @@
       },
       {
         "id": 800,
+        "name": "Pronouns",
         "words": [
           { "sk": "môj",       "en": "my" },
           { "sk": "tvoj",        "en": "your" },
@@ -375,25 +391,9 @@
           { "sk": "my",     "en": "we" },
           { "sk": "vy",    "en": "you" }
         ]
-      },
-      {
-        "id": 1200,
-        "words": [
-          { "sk": "svadba",   "en": "wedding" },
-          { "sk": "poslať",  "en": "send" },
-          { "sk": "čistiť, upratovať",    "en": "clean" },
-          { "sk": "listy",    "en": "letters" },
-          { "sk": "oblek",   "en": "suit" },
-          { "sk": "po mojom boku, pri mne","en": "by my side" },
-          { "sk": "fotiť", "en": "take photos" },
-          { "sk": "umývať auto",    "en": "wash the car" },
-          { "sk": "pozvanie",   "en": "invitation" },
-          { "sk": "vzrušený",  "en": "excited" },
-          { "sk": "hostia",   "en": "guests" },
-          { "sk": "čoskoro","en": "soon" }
-        ]
       },{
         "id": 20,
+        "name": "Comparisons",
         "words": [
           { "sk": "si vyšší ako ja",       "en": "you are taller than me" },
           { "sk": "som vyšší ako ty",        "en": "I am taller than you" },
@@ -413,6 +413,7 @@
         ]
       },{
         "id": 21,
+        "name": "Present Continuous",
         "words": [          
           { "sk": "tancujem",   "en": "I am dancing" },
           { "sk": "spievaš",   "en": "you are singing" },
@@ -431,6 +432,7 @@
         ]
       }, {
         "id": 22,
+        "name": "Past Simple",
         "words":[
           { "sk": "ja som bol rýchly",   "en": "I was fast" },
           { "sk": "ty si bola vysoká",   "en": "you were tall" },

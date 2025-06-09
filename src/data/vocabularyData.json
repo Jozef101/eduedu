@@ -373,7 +373,22 @@
           { "sk": "muži",    "en": "men" },
           { "sk": "chýbať",    "en": "miss" },
           { "sk": "hýbať",    "en": "move" },
-          { "sk": "ružový",    "en": "pink" }
+          { "sk": "ružový",    "en": "pink" },
+          { "sk": "cena",    "en": "price" },
+          { "sk": "udeľovanie cien",    "en": "price giving" },
+          { "sk": "preteky",    "en": "race" },
+          { "sk": "naozajstný",    "en": "real" },
+          { "sk": "prsteň",    "en": "ring" },
+          { "sk": "dookola",    "en": "round and round" }, 
+          { "sk": "bežec",    "en": "runner" },
+          { "sk": "druhý",    "en": "second" },
+          { "sk": "umývadlo, drez",    "en": "sink" },
+          { "sk": "nejaký",    "en": "some" },
+          { "sk": "hojdačka",    "en": "swing" },
+          { "sk": "tretí",    "en": "third" },
+          { "sk": "víťaz",    "en": "winner" },
+          { "sk": "žena",    "en": "woman" },
+          { "sk": "ženy",    "en": "women" }         
         ]
       },
       {
@@ -442,6 +457,21 @@
           { "sk": "vy ste boli pomalí",   "en": "you were slow" },
           { "sk": "oni boli špinaví",   "en": "they were dirty" }
 
+        ]
+      }, {
+        "id": 23,
+        "name": "Numbers",
+        "words":[
+          { "sk": "prvý",   "en": "first" },
+          { "sk": "druhý",   "en": "second" },
+          { "sk": "tretí",   "en": "third" },
+          { "sk": "štvrtý",   "en": "fourth" },
+          { "sk": "piaty",   "en": "fifth" },
+          { "sk": "šiesty",   "en": "sixth" },
+          { "sk": "siedmy",   "en": "seventh" },
+          { "sk": "ôsmy",   "en": "eighth" },
+          { "sk": "deviaty",   "en": "ninth" },
+          { "sk": "desiaty",   "en": "tenth" }
         ]
       }
     ]

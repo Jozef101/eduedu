@@ -238,7 +238,11 @@
           { "sk": "šál",        "en": "scarf" },
           { "sk": "košeľa",      "en": "shirt" },
           { "sk": "posaď sa",         "en": "sit down" },
-          { "sk": "sukňa",      "en": "skirt" }
+          { "sk": "sukňa",      "en": "skirt" },
+          { "sk": "pomalý",      "en": "slow" },
+          { "sk": "kameň",      "en": "stone" },
+          { "sk": "mesto",      "en": "town" },
+          { "sk": "vlna",      "en": "wave" }
         ]
       },
       {
@@ -433,7 +437,7 @@
           { "sk": "tancujem",   "en": "I am dancing" },
           { "sk": "spievaš",   "en": "you are singing" },
           { "sk": "on pláva",   "en": "he is swimming" },
-          { "sk": "ona sa hrá",   "en": "he is playing" },
+          { "sk": "ona sa hrá",   "en": "she is playing" },
           { "sk": "ono kreslí",   "en": "it is drawing" },
           { "sk": "oni rozprávajú",   "en": "they are talking" },
           { "sk": "vy čítate",   "en": "you are reading" },
